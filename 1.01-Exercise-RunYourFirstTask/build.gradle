@@ -21,10 +21,10 @@ Challenges:
 
 */
 
-task hello {
+task name {
     description "Hey student! Run this one :D"
     group "Our demo"
     doLast {
-        println "Hello World!"
+        println "The next Bill Gates"
     }
 }
