@@ -18,3 +18,11 @@ Hint: Don't forget about the solution file!
 https://docs.gradle.org/current/dsl/org.gradle.api.Task.html#org.gradle.api.Task:description
 
 */
+task hello{
+    description "my first task boyyyy"
+    group "my first group"
+    doLast{
+        println "Hello World boyyyy!"
+    }
+
+}
